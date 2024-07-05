@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.hero-section{
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(rgba(205, 13, 13, 0.57),rgba(205, 13, 13, 0.57)),url(../imgs/148.jpg);
+    background-size: cover;
+    /* background-color: rgba(177, 10, 10, 0.659); */
+}
+.sideNav{
+ width: 410px;
+ position: absolute;
+ height: 100vh;
+}
+.settingsList{
+    font-size: 2rem;
+}
+.innerNav{
+    background-color: rgba(0, 0, 0, 0.735);
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+.settingsIcon{
+    align-self: center;
+    position: absolute;
+    right: 0;
+    font-size: 2rem;
+    color: white;
+}
+.closeIcon{
+    position: absolute;
+    right: 10px;
+    font-size: 2rem;
+    color: white;
+}
+.navLinks:hover{
+    color: brown;
+}
+
+/* singer section start */
+.singerTitle{
+    background-color: rgba(205, 13, 13, 0.57);
+    color: aliceblue;
+    padding: 10px;
+}
+.singerContent{
+    background-color: lightgrey;
+}
+.joinUs-section{
+    background-image:linear-gradient(rgba(237, 77, 77, 0.767),rgba(237, 77, 77, 0.767)), url(../imgs/joinUS.png) ;
+    color: aliceblue;
+}
